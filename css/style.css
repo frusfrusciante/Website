@@ -1,0 +1,134 @@
+body {
+    display: flex;
+}
+#main {
+    width: 40%;
+    height: 100%;
+    background-color: #2a78ab;
+    justify-content: center;
+    text-align: center;
+}
+
+#main-info {
+    text-align: right;
+}
+
+.mt {
+    margin-top: 30px;
+}
+
+.blue {
+    font-family: "Ubuntu";
+    font-size: 20px;
+    height: 60px;
+    background-color: #e0effa;
+    width: 600px;
+}
+
+.t {
+    text-align: left;
+    font-family: 'Inter Tight';
+    padding-top: 10px;
+    color: black;
+    width: 460px;
+    height: 12px;
+}
+
+.b {
+    font-weight: 700;
+    height: 25px;
+    padding-left: 20px;
+    width: 400px;
+}
+
+.we {
+    padding-top: 20px;
+    padding-right: 430px;
+    
+}
+
+.logo {
+    margin-top: 45px;
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    
+}
+
+.p {
+    margin-left: 50px;
+    text-align: left;
+    font-family: 'Inter Tight';
+    padding-top: 10px;
+    color: black;
+    width: 460px;
+    height: 12px;
+}
+
+.d li, .cont li {
+    font-family: 'Inter Tight';
+    font-weight: 400;
+    color: white;
+    height: 25px;
+    margin-left: 24vh;
+}
+
+li:last-child{
+    height: 50px;
+}
+
+ul {
+    text-align: left;
+}
+
+.dos {
+    list-style-type: square;
+    margin-left: 50px;
+}
+
+.do {
+    margin-right: 32px;
+}
+
+.why {
+    margin-right: 56px;
+}
+
+p.job {
+    font-family: 'Inter Tight';
+    font-weight: 700;
+    height: 70px;
+}
+
+p.name {
+    font-family: 'Inter Tight';
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    margin-top: 30px;
+    height: 54px;
+}
+
+p.sk {
+    font-family: 'Inter Tight';
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+    height: 48px;
+}
+
+.d li::before{
+    content: "💻";
+}
+
+.cont li:nth-child(1)::before {
+    content: "📞";
+}
+
+.cont li:nth-child(2)::before {
+    content: "📫";
+}
+
+.cont li:nth-child(3)::before {
+    content: "🌐";
+}
